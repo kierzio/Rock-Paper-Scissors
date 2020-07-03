@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1faee;
+}
+
+header {
+    background: #a8dadc;
+    padding: 20px;
+
+}
+
+
+header > h1 {
+    color: #1d3557;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.scoreboard {
+    margin: 20px auto;
+    border: 3px solid #1d3557;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: #1d3557;
+    font-size: 32px;
+    padding: 15px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+.badge {
+    background: #e63946;
+    color: #1d3557;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#cpu-label {
+    position: absolute;
+    top: 30px;
+    right: -25px;
+}
+.result {
+    font-size: 30px;
+    color: #1d3557;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1d3557;
+}
+
+.choices {
+    margin: 50px 0;
+    height: 200px;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%; 
+    /* border: 5px solid #1d3557; */
+}
+.choice {
+    border-radius: 50%;
+    border: 8px solid #1d3557;
+    display: inline-block;
+}
+
+.choice:hover {
+    cursor: pointer;
+    /* border: #e63946; */
+    opacity: 0.7;
+}
+
+#action-message {
+    text-align: center;
+    color: #1d3557;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 10px;
+    /* margin-top: 300px; */
+}
+
+.green-light {
+    border-radius: 50%;
+    border: 10px solid #04A777;
+    box-shadow: 0 0 10px #40531B;
+}
+
+.red-light {
+    border: 10px solid #BF0603;
+    box-shadow: 0 0 10px #8D0801;
+}
+
+.grey-light {
+    border: 10px solid #D8DAD3;
+    box-shadow: 0 0 10px #546A7B;
+}
