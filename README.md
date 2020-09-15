@@ -8,6 +8,7 @@ Here's what I learned:
 - Turning a plan into code
 - Javascript logic and operators
 - Get Element by ID
+- Timeout Method
 - DOM manipulation
 - Caching DOM
 - Basic HTML layout
