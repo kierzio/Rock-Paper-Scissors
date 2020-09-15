@@ -5,29 +5,29 @@
 }
 
 body {
-    background-color: #f1faee;
+    background-color: #ECE9E3;
 }
 
 header {
-    background: #a8dadc;
+    background: #1B9D82;
     padding: 20px;
 
 }
 
 
 header > h1 {
-    color: #1d3557;
+    color: #0B1325;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .scoreboard {
     margin: 20px auto;
-    border: 3px solid #1d3557;
+    border: 3px solid #F17652;
     border-radius: 4px;
     text-align: center;
     width: 200px;
-    color: #1d3557;
+    color: #184248;
     font-size: 32px;
     padding: 15px 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -35,8 +35,8 @@ header > h1 {
 }
 
 .badge {
-    background: #e63946;
-    color: #1d3557;
+    background: #F17652;
+    color: #184248;
     font-size: 14px;
     padding: 2px 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -55,14 +55,14 @@ header > h1 {
 }
 .result {
     font-size: 30px;
-    color: #1d3557;
+    color: #184248;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .result > p {
     text-align: center;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #1d3557;
+    color: #184248;
 }
 
 .choices {
@@ -79,7 +79,7 @@ img {
 }
 .choice {
     border-radius: 50%;
-    border: 8px solid #1d3557;
+    border: 8px solid #184248;
     display: inline-block;
 }
 
@@ -91,7 +91,7 @@ img {
 
 #action-message {
     text-align: center;
-    color: #1d3557;
+    color: #1B9D82;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
